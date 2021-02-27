@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222;
+    font-family: 'Poppins', sans-serif;
+}
+
+#container{
+    max-width:1280px;
+    margin:auto;
+    padding-top:60px;
+}
+
+#header{
+    width:100%;
+    height:400px;
+    margin-bottom:50px;
+}
+
+#photo{
+    float:left;
+    width: 50%;
+    height:400px;
+}
+
+#cadre-photo{
+    width:400px;
+    height:400px;
+    margin:auto;
+    border:18px solid #444444;
+    border-radius:1000px;
+    overflow: hidden;
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.8);
+}
+
+#cadre-photo img{
+    max-width: 365px;
+}
+
+#title{
+    float:left;
+    width:50%;
+    height:400px;
+}
+
+.tag{
+    color: #fff;
+    background-color: #007ced;
+    font-size: 12px;
+    border-radius: 3px;
+    display: inline-block;
+    padding:4px 10px;
+}
+
+h1{
+    color: #f5f5f5;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom:8px;
+}
+
+h2{
+    display: inline-block;
+    position:relative;
+    color: #f5f5f5;
+    font-weight: 600;
+    font-size: 21px;
+    padding-bottom: 8px;
+}
+
+h2::before{
+    display: block;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:2px;
+    content:'';
+    background-color: #353535;
+}
+
+h2::after{
+    display: block;
+    position:absolute;
+    bottom:0;
+    width:60px;
+    height:2px;
+    content:'';
+    background-color: #007ced;
+}
+
+#parcours h2::after{
+    background-color: #353535;
+}
+
+#parcours h2{
+    font-size:18px;
+    font-weight: 400;
+}
+
+h4{
+    color: #aaa;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#content h4{
+    margin:0;
+}
+
+h5{
+    color: #d5d5d5;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+p{
+    color:#d5d5d5;
+    font-size: 14px;
+}
+
+b{
+    color:#eee;
+}
+
+.dates{
+    color:#d5d5d5;
+    border:2px solid #007ced;
+    border-radius: 30px;
+    font-size:12px;
+    font-weight: 600;
+    padding:2px 10px;
+}
+
+#title .dates{
+    margin-left:8px;
+}
+
+.city{
+    color:#ccc;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.title-buttons a{
+    color:#fff;
+    font-size:14px;
+    display: inline-block;
+    border: 2px solid #d5d5d5;
+    border-radius: 30px;
+    padding:6px 18px;
+    box-shadow: 0 10px 10px -8px rgba(0,0,0,.78);
+    background-color: #333;
+    text-decoration:none;
+    transition: all .3s ease-in-out;
+    margin-right: 8px;
+}
+
+.title-buttons a.blue{
+    border: 2px solid #007ced;
+}
+
+.title-buttons a:hover{
+    background-color: #007ced;
+}
+
+.job{
+    padding:10px 0;
+}
+
+#parcours{
+    padding:30px;
+}
+.inset{
+    background-color: #282828;
+    border:2px solid #444;
+    padding:12px 24px;
+    border-radius: 8px;
+}
+
+#parcours span.color-blue{
+    color:#007ced;
+    font-weight: 600;
+}
+
+#parcours h2 span.color-blue{
+    font-size:21px;
+}
+
+#parcours li{
+    font-size:14px;
+    color:#d5d5d5;
+    margin-left:16px;
+}
